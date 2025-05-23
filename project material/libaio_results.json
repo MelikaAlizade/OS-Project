@@ -1,0 +1,122 @@
+[
+    {
+        "parameters": {
+            "iodepth": 1,
+            "numjobs": 1,
+            "Type": "randrw",
+            "size": "4G"
+        },
+        "metrics": {
+            "read": {
+                "iops": 209180.62201,
+                "mean_latency_ns": 2151.718439,
+                "p99_9_latency_ns": 1128
+            },
+            "write": {
+                "iops": 208911.881978,
+                "mean_latency_ns": 2323.76953,
+                "p99_9_latency_ns": 1160
+            }
+        }
+    },
+    {
+        "parameters": {
+            "iodepth": 1,
+            "numjobs": 4,
+            "Type": "randrw",
+            "size": "1G"
+        },
+        "metrics": {
+            "read": {
+                "iops": 727419.444444,
+                "mean_latency_ns": 2141.213704,
+                "p99_9_latency_ns": 1176
+            },
+            "write": {
+                "iops": 728936.111111,
+                "mean_latency_ns": 2964.734792,
+                "p99_9_latency_ns": 1240
+            }
+        }
+    },
+    {
+        "parameters": {
+            "iodepth": 1,
+            "numjobs": 1,
+            "Type": "randwrite",
+            "size": "4G"
+        },
+        "metrics": {
+            "read": {
+                "iops": 0.0,
+                "mean_latency_ns": 0.0,
+                "p99_9_latency_ns": 0
+            },
+            "write": {
+                "iops": 383111.435879,
+                "mean_latency_ns": 2457.059908,
+                "p99_9_latency_ns": 1160
+            }
+        }
+    },
+    {
+        "parameters": {
+            "iodepth": 1,
+            "numjobs": 4,
+            "Type": "randwrite",
+            "size": "1G"
+        },
+        "metrics": {
+            "read": {
+                "iops": 0.0,
+                "mean_latency_ns": 0.0,
+                "p99_9_latency_ns": 0
+            },
+            "write": {
+                "iops": 812219.984508,
+                "mean_latency_ns": 4756.253918,
+                "p99_9_latency_ns": 1112
+            }
+        }
+    },
+    {
+        "parameters": {
+            "iodepth": 1,
+            "numjobs": 1,
+            "Type": "randread",
+            "size": "4G"
+        },
+        "metrics": {
+            "read": {
+                "iops": 445255.201699,
+                "mean_latency_ns": 2099.25471,
+                "p99_9_latency_ns": 940
+            },
+            "write": {
+                "iops": 0.0,
+                "mean_latency_ns": 0.0,
+                "p99_9_latency_ns": 0
+            }
+        }
+    },
+    {
+        "parameters": {
+            "iodepth": 1,
+            "numjobs": 4,
+            "Type": "randread",
+            "size": "1G"
+        },
+        "metrics": {
+            "read": {
+                "iops": 1920468.864469,
+                "mean_latency_ns": 1928.991235,
+                "p99_9_latency_ns": 1176
+            },
+            "write": {
+                "iops": 0.0,
+                "mean_latency_ns": 0.0,
+                "p99_9_latency_ns": 0
+            }
+        }
+    }
+]
